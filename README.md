@@ -4,11 +4,11 @@
 
 ## Overview
 
-This repository contains the design files for a DC-DC converter used in the University of Nottingham's solar race car. The converter steps down the battery voltage from 600V to 12V, which is essential for powering various low-voltage components in the vehicle.
+This repository contains the design files for a DC-DC converter used in the University of Nottingham's solar race car. The converter steps down the battery voltage from 135V to 12V, which is essential for powering various low-voltage components in the vehicle.
 
 ## Features
 
-- **Input Voltage:** 600V
+- **Input Voltage:** 135V
 - **Output Voltage:** 12V
 - **Output Current:** Up to 50A
 - **Efficiency:** > 90%
@@ -42,10 +42,10 @@ To work with the design files, you will need:
 
 ![image](https://github.com/henrysg1/solar-car-dcdc/assets/115489513/ccc3d81f-a005-4942-9a68-fbe2e8a8522a)
 
-The schematic for the DC-DC converter is designed to step down the voltage from 600V to 12V. Here are the key sections and components:
+The schematic for the DC-DC converter is designed to step down the voltage from 135V to 12V. Here are the key sections and components:
 
 ### Input Section
-- **J2, J3 (Connectors):** These connectors receive the high voltage (600V) input.
+- **J2, J3 (Connectors):** These connectors receive the high voltage (135V) input.
 - **F1, F2 (5A Fuses):** Provide overcurrent protection for the high voltage input.
 
 ### Relay Control
